@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title> - Exe em Javascript - </title>
+</head>
+
+<body>
+
+    <header> 
+        <nav>
+            <ul>
+                <li><a class="btnNav" id="fibonacci" href="#">fibonacci</a></li>
+                <li><a class="btnNav" id="vetor" href="#">Ordenar Vetor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <div class="fibonacci bg-pd">
+            <h2>Fibonacci</h2>
+            <div class="fibonacci--box">
+                <ul class="fibonacci--list">
+                    <li>0</li>
+                    <li>1</li>
+                </ul>
+                <form>
+                    <input id="qnt-fibo" type="number" placeholder="Quantidade">
+                </form>
+            </div>
+        </div><!--fibonacci-->
+
+        <div class="vetor bg-pd">
+            <h2>Ordenar vetor</h2>
+            <div class="vetor--gerarNum">
+                <p>Números Aleatório: 
+                    <b class="numeros">
+                        <span>....</span>
+                    </b> 
+                    <a id="random-gerar" href="#">Gerar numero</a>
+                    <a id="ordenar-num" href="#">Ordenar</a>
+                </p>
+            </div>
+            
+        </div><!--vetor-->
+        
+    </div><!--container-->
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
